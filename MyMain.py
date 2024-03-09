@@ -41,19 +41,6 @@ for e in range(number_of_enemies):
     enemy_x_change.append(0.2)
     enemy_y_change.append(50)
 
-# bullet variables
-img_bullet = pygame.image.load("bullet.png")
-bullet_x = 0
-bullet_y = 500
-bullet_x_change = 0
-bullet_y_change = 0.5
-visible_bullet = False
-
-# Score
-score = 0
-my_font = pygame.font.Font('freesansbold.ttf', 32)
-text_x = 10
-text_y = 10
 
 
 # show score function
